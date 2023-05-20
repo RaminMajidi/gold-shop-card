@@ -12,14 +12,14 @@ function Product({ id, title, price, category, imgUrl }: ProductModel) {
             <div className="p-card-img-cont">
                 <Card.Img className="p-card-img" variant="top" src={imgUrl} width={"100%"} style={{ objectFit: "fill" }} />
             </div>
-            <Card.Body className="d-flex flex-column bg-dark " style={{ height: "12rem" }}>
+            <Card.Body className="d-flex flex-column bg-dark ">
                 <Card.Title className="d-flex flex-column mb-1">
                     <span className="fs-6 text-light">{title}</span>
-                    <span className="my-2 text-light"><span className="text-success">$</span><span className="text-success">{price}</span></span>
+                    <span className="mt-2 text-light"><span className="text-success">$</span><span className="text-success">{price}</span></span>
                 </Card.Title>
                 <div className="mt-auto">
                     {qty === 0 ? (
-                        <Button onClick={() => addItem(id)} className="btn-secondary w-100">Add To Cart</Button>
+                        <Button onClick={() => addItem(id)} className="btn-secondary w-100 mt-2">Add To Cart</Button>
                     ) : (
                         <div className="d-flex align-items-center flex-column " style={{ gap: ".5rem" }}>
                             <div className="d-flex align-items-center justify-content-center" style={{ gap: ".5rem" }}>

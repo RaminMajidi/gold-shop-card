@@ -17,8 +17,6 @@ function Shop() {
     const [categorys, setCategores] = useState<string[]>([]);
     const [filter,setFilter] = useState<string>("All");
 
-
-
    async function filterHandeler(filter:string){
     if(filter === "All"){
         setProducts(data)

@@ -1,5 +1,15 @@
+import React from "react"
+import Baner from "../components/Baner"
+import { Container } from "react-bootstrap"
+import Services from "../components/Services"
+
 function Home(){
-    return <h2>Home</h2>
+    return(
+        <Container>
+        <Baner imgUrl={"images/Baner.jpg"}/>
+         <Services/>
+        </Container>
+    )
 }
 
 export default Home
