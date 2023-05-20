@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.p-card-img-cont{
+    overflow: hidden;
+}
+.p-card-img{
+    transition: all .5s ease-in-out;
+}
+.p-card-img:hover{
+
+    cursor: zoom-in;
+    transform: scale(1.2) !important;
+}

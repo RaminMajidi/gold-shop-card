@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "title":"Half a set of designs",
+        "category":"HalfSet",
+        "price":416,
+        "imgUrl":"images/pr-01.jpg"
+    },
+    {
+        "id":2,
+        "title":"half set",
+        "category":"HalfSet",
+        "price":354,
+        "imgUrl":"images/pr-02.jpg"
+    },
+    {
+        "id":3,
+        "title":"New half set",
+        "category":"HalfSet",
+        "price":502,
+        "imgUrl":"images/pr-03.jpg"
+    },
+    {
+        "id":4,
+        "title":"7 diamond ring",
+        "category":"Ring",
+        "price":202,
+        "imgUrl":"images/pr-04.jpg"
+    },
+    {
+        "id":5,
+        "title":"Derica service",
+        "category":"Set",
+        "price":970,
+        "imgUrl":"images/pr-05.jpg"
+    },
+    {
+        "id":6,
+        "title":"Single eye design ring",
+        "category":"Ring",
+        "price":405,
+        "imgUrl":"images/pr-06.jpg"
+    },
+    {
+        "id":7,
+        "title":"Versace single ring",
+        "price":830,
+        "category":"Ring",
+        "imgUrl":"images/pr-07.jpg"
+    },
+    {
+        "id":8,
+        "title":"Mauritsu earrings",
+        "category":"Earrings",
+        "price":750,
+        "imgUrl":"images/pr-08.jpg"
+    }
+]
