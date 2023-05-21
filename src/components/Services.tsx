@@ -7,7 +7,7 @@ const Services:React.FC = ()=>{
 
     return(
         <article className="my-3">
-            <h2 className="text-center p-3 fs-1 my-3"><i className="bi bi-patch-check-fill mx-2"></i><span className="border-bottom">our services</span></h2>
+            <h2 className="text-center p-3 fs-1 my-3"><i className="bi bi-patch-check-fill mx-2"></i><span className="border-bottom pb-2">our services</span></h2>
             <Row  className="g-2 justify-content-around" >
                 <ServiceItem icon="bi-truck" title="Fast delivery" text="In the shortest time possible"/>
                 <ServiceItem icon="bi-headset" title="Full support" text="24 hours, 7 days a week"/>

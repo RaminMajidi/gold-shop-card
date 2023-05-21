@@ -14,3 +14,9 @@
     cursor: zoom-in;
     transform: scale(1.2) !important;
 }
+.home-categ-item img{
+    transition: all .3s ease-in-out;
+}
+.home-categ-item:hover img{
+opacity: .6;
+}
