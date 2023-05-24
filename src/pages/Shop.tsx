@@ -2,14 +2,8 @@ import { Row, Col, Button } from "react-bootstrap"
 import Product from "../components/Product"
 import productItems from "../data/products.json"
 import { useEffect, useState } from "react"
+import { ProductModel } from "../Models/ProductModel"
 
-export interface ProductModel {
-    id: number,
-    title: string,
-    price: number,
-    category: string,
-    imgUrl: string
-}
 
 function Shop() {
     const [data, setData] = useState<ProductModel[]>(productItems);
@@ -43,10 +37,10 @@ function Shop() {
                 {
                     categorys.length > 0 &&
                     <>
-                        <Button onClick={() => filterHandeler('All')} key={"all"} className={`mx-1 ${filter === "All" ? "bg-danger" : "bg-info"}`} style={{ width: "max-content" }}>All</Button>
+                        <Button onClick={() => filterHandeler('All')} key={"all"} className={`mx-1 ${filter === "All" ? "bg-danger" : "bg-secondary"}`} style={{ width: "max-content" }}>All</Button>
                         {
                             categorys.map((item, i) => (
-                                <Button onClick={() => filterHandeler(item)} key={i} className={`mx-1  ${filter === item ? "bg-danger" : "bg-info"}`} style={{ width: "max-content" }}>{item}</Button>
+                                <Button onClick={() => filterHandeler(item)} key={i} className={`mx-1  ${filter === item ? "bg-danger" : "bg-secondary"}`} style={{ width: "max-content" }}>{item}</Button>
                             ))
                         }
                     </>

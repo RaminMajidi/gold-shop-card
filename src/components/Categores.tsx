@@ -7,7 +7,7 @@ const Categores: React.FC = () => {
 
     return (
         <article className="my-3">
-            <h2 className="text-center p-3 fs-1 my-3"><i className="bi bi-gem mx-2 "></i><span className="border-bottom pb-2">product categories</span></h2>
+            <h2 className="text-center p-3 fs-1 my-5"><i className="bi bi-gem mx-2 "></i><span className="border-bottom pb-2">product categories</span></h2>
             <Row className="g-2 justify-content-around" >
               <CategoreItem id={1} imgUrl={"images/h-p-1.jpg"} title="Gold bracelet" pageUrl="/shop"/>
               <CategoreItem id={2} imgUrl={"images/h-p-2.jpg"} title="Half a set of gold" pageUrl="/shop"/>

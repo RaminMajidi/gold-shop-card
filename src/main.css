@@ -20,3 +20,11 @@
 .home-categ-item:hover img{
 opacity: .6;
 }
+.collection-img img{
+    position: relative;
+    transition: all .9s ease-in-out;
+}
+.collection-img:hover img{
+transform: scale(1.2);
+left: -15px;
+}
