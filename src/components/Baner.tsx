@@ -9,7 +9,7 @@ type BanerProps = {
 const Baner:React.FC<BanerProps> = ({imgUrl}) =>{
 
     return(
-        <Image loading="lazy" style={{borderRadius:".8rem"}} width={"100%"}  src={imgUrl}></Image>
+        <Image style={{borderRadius:".8rem"}} width={"100%"}  src={imgUrl}></Image>
     )
 }
 
