@@ -2,10 +2,9 @@ import  {Routes,Route} from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 import { CartProvider } from './context/CartContext'
 import Home from "./pages/Home"
-import About from "./pages/About"
 import Shop from "./pages/Shop"
 import Navbar from './components/Navbar'
-
+import FooterSection from './components/FooterSection'
 
 function App (){
   return(
@@ -15,9 +14,9 @@ function App (){
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/shop' element={<Shop/>}/>
-      <Route path='/about' element={<About/>}/>
     </Routes>
     </Container>
+    <FooterSection/>
     </CartProvider>
   )
 }

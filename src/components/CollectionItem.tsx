@@ -14,7 +14,7 @@ const CollectionItem: React.FC<CollectionItemProps> = ({ id, imgUrl, pageUrl, ti
 
 
     return (
-        <div className="col-10 col-md-4 position-relative">
+        <div className="col-12 col-md-4 position-relative">
             <div className="collection-img rounded-3 w-100 h-100 overflow-hidden">
             <Image className=" w-100 rounded-3" src={`${imgUrl}`} />
             </div>

@@ -46,7 +46,7 @@ function Shop() {
                     </>
                 }
             </Row>
-            <Row xs={2} md={3} lg={4} className="g-3">
+            <Row xs={2} md={3} lg={4} className="g-3 mb-5">
                 {
                     prducts.length ? (
                         prducts.map((item, index) => (

@@ -12,7 +12,6 @@ function Navbar (){
             <Container>
                 <Nav className="me-auto">
                     <Nav.Link to="/" as={NavLink} className="text-dark">Home</Nav.Link>
-                    <Nav.Link to="/about" as={NavLink} className="text-dark">About</Nav.Link>
                     <Nav.Link to="/shop" as={NavLink} className="text-dark">Shop</Nav.Link>
                 </Nav>
                 <Button onClick={openCart} variant="outline-dark" className="btn-dark" style={{width:"2.5rem" , height:"2.5rem" , position:"relative" , fontSize:"1rem"}}>
