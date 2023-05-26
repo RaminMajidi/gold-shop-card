@@ -18,7 +18,7 @@ function CartItem ({id,qty}:CartItemProps){
  } else{
     return (
         <Stack dir="horizontal" gap={2} className="d-flex align-items-center ">
-            <img src={product.imgUrl} style={{width:"170px",height:"110px",objectFit:"fill"}}/>
+            <img loading="lazy" src={product.imgUrl} style={{width:"170px",height:"110px",objectFit:"fill"}}/>
             <div className="m-auto text-dark ">
               {product.title}{" "}
               {qty > 1 && (
