@@ -1,18 +1,13 @@
-import React from "react"
-import Baner from "../components/Baner"
-import { Container } from "react-bootstrap"
-import Services from "../components/Services"
-import Categores from "../components/Categores"
-import Collections from "../components/Collections"
+import React, { useEffect, useState } from "react"
+import Loading from "../components/Loading/Loading"
+
 
 function Home() {
+    const HomeLazyComponent = React.lazy(() => import("../components/Home/Home"))
     return (
-        <Container>
-            <Baner imgUrl={"images/Baner.jpg"} />
-            <Services />
-            <Categores/>
-            <Collections/>
-        </Container>
+        <React.Suspense fallback={<Loading/>}>
+            <HomeLazyComponent />
+        </React.Suspense>
     )
 }
 

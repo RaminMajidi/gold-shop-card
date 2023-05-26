@@ -13,7 +13,7 @@ const CategoreItem: React.FC<CategoreItemProps> = ({ id, imgUrl, pageUrl, title 
 
 
     return (
-        <div className="home-categ-item col-5 col-md-4 col-lg-3 rounded-3 min-vh-100 ">
+        <div className="home-categ-item col-5 col-md-4 col-lg-3 rounded-3 ">
             <Link style={{textDecoration:"none"}} to={pageUrl} className="d-flex text-white flex-column justify-content-center align-items-center">
                 <div className="w-100">
                     <Image loading="lazy" className="rounded-3" width={"100%"} src={`${imgUrl}`} />
