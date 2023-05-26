@@ -1,6 +1,6 @@
 import { Card, Button } from "react-bootstrap"
 import { useCartContext } from "../context/CartContext"
-import { ProductModel } from "../pages/Shop"
+import { ProductModel } from "../Models/ProductModel"
 
 
 function Product({ id, title, price, category, imgUrl }: ProductModel) {
