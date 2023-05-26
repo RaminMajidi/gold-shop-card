@@ -10,7 +10,7 @@ function Product({ id, title, price, category, imgUrl }: ProductModel) {
     return (
         <Card className="h-100 p-card" data-category={category} >
             <div className="p-card-img-cont">
-                <Card.Img className="p-card-img" variant="top" src={imgUrl} width={"100%"} style={{ objectFit: "fill" }} />
+                <Card.Img loading="eager" className="p-card-img" variant="top" src={imgUrl} width={"100%"} style={{ objectFit: "fill" }} />
             </div>
             <Card.Body className="d-flex flex-column bg-dark ">
                 <Card.Title className="d-flex flex-column mb-1">
